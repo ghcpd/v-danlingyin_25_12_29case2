@@ -1,0 +1,15 @@
+.bio {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.timeline {
+  display: grid;
+  gap: 10px;
+}
+
+.period {
+  border-left: 3px solid var(--accent);
+  padding-left: 10px;
+}

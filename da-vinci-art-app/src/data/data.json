@@ -1,0 +1,229 @@
+{
+  "artist": {
+    "name": "Leonardo da Vinci",
+    "birthYear": 1452,
+    "deathYear": 1519,
+    "birthPlace": "Vinci, Florence, Italy",
+    "nativePlace": "Republic of Florence",
+    "biography": "Leonardo da Vinci (1452–1519) was an Italian polymath of the High Renaissance period who embodied the ideal of the Renaissance man. He was a painter, sculptor, architect, scientist, mathematician, engineer, and anatomist. Born in the small town of Vinci near Florence, Leonardo moved to Milan as a young man where he spent nearly two decades serving the Duke and creating some of his most famous works. His scientific curiosity was as notable as his artistic talent; he filled thousands of notebook pages with observations, sketches, and inventions centuries ahead of his time. Leonardo left behind relatively few finished paintings but each work is a masterpiece of technique, composition, and human insight. His works bridge art and science, combining acute observation of nature with mathematical precision and psychological depth.",
+    "notablePeriods": [
+      {
+        "period": "Early Period (1472-1482)",
+        "location": "Florence",
+        "description": "Training and early works in Florence under Andrea del Verrocchio"
+      },
+      {
+        "period": "Milan Period (1482-1499)",
+        "location": "Milan",
+        "description": "Most productive period; created The Last Supper and numerous studies"
+      },
+      {
+        "period": "Later Period (1500-1519)",
+        "location": "Florence, Rome, France",
+        "description": "Continued paintings, scientific studies, and travels"
+      }
+    ]
+  },
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Mona Lisa",
+      "year": 1503,
+      "yearEnd": 1519,
+      "medium": "Oil on poplar panel",
+      "dimensions": "77 cm × 53 cm (30 in × 21 in)",
+      "description": "The most famous portrait in the world, Mona Lisa is renowned for the subject's enigmatic smile and serene gaze. It exemplifies Leonardo's sfumato technique—a method of subtle transitions between colors and tones without harsh lines. The painting depicts Lisa Gherardini, a Florentine merchant's wife. The background features a dreamlike, winding landscape that recedes into the distance. The composition is simple yet profound, with the subject positioned against a natural backdrop, creating an intimate psychological portrait.",
+      "location": "Louvre Museum, Paris, France",
+      "imageUrl": "/images/mona-lisa.jpg",
+      "period": "Later Period",
+      "significance": "Critical",
+      "tags": ["Portrait", "Renaissance", "Oil Painting"]
+    },
+    {
+      "id": 2,
+      "title": "The Last Supper",
+      "year": 1495,
+      "yearEnd": 1498,
+      "medium": "Tempera and oil on plaster",
+      "dimensions": "460 cm × 880 cm (180 in × 350 in)",
+      "description": "A monumental fresco depicting Jesus Christ's final meal with his twelve apostles before his crucifixion. Painted in the refectory of the Convent of Santa Maria delle Grazie in Milan, it captures the moment when Jesus announces that one of the apostles will betray him. Leonardo's composition brilliantly conveys the emotional turmoil of each disciple through their body language and expressions. The work revolutionized religious art through its psychological depth and spatial perspective.",
+      "location": "Convent of Santa Maria delle Grazie, Milan, Italy",
+      "imageUrl": "/images/last-supper.jpg",
+      "period": "Milan Period",
+      "significance": "Critical",
+      "tags": ["Religious", "Fresco", "Masterpiece"]
+    },
+    {
+      "id": 3,
+      "title": "The Virgin of the Rocks",
+      "year": 1483,
+      "yearEnd": 1486,
+      "medium": "Oil on panel (transferred to canvas)",
+      "dimensions": "198 cm × 123 cm (78 in × 48 in)",
+      "description": "This painting exists in two versions—the first in the Louvre and the second in the National Gallery, London. It depicts the Virgin Mary with the Christ Child, the infant John the Baptist, and an angel in a rocky grotto. The work showcases Leonardo's mastery of light and shadow, creating a mysterious and intimate sacred scene. The pyramid composition and sfumato technique create an ethereal atmosphere.",
+      "location": "Louvre Museum, Paris, France (first version)",
+      "imageUrl": "/images/virgin-of-rocks.jpg",
+      "period": "Milan Period",
+      "significance": "High",
+      "tags": ["Religious", "Madonna", "Oil Painting"]
+    },
+    {
+      "id": 4,
+      "title": "The Vitruvian Man",
+      "year": 1490,
+      "yearEnd": 1490,
+      "medium": "Pen and ink on paper",
+      "dimensions": "34.4 cm × 24.3 cm (13.5 in × 9.6 in)",
+      "description": "An iconic drawing representing the classical proportions of the human body. Based on the writings of the Roman architect Vitruvius, the drawing shows a male figure in two superimposed positions—one within a square and one within a circle. The accompanying notes in Leonardo's characteristic mirror script explain the mathematical relationships of human proportions. This work symbolizes the intersection of art and science, and the ideal harmony of human form.",
+      "location": "Gallerie dell'Accademia, Venice, Italy",
+      "imageUrl": "/images/vitruvian-man.jpg",
+      "period": "Milan Period",
+      "significance": "Critical",
+      "tags": ["Anatomical Study", "Drawing", "Scientific"]
+    },
+    {
+      "id": 5,
+      "title": "Lady with an Ermine",
+      "year": 1489,
+      "yearEnd": 1491,
+      "medium": "Oil on walnut panel",
+      "dimensions": "54 cm × 39 cm (21 in × 15 in)",
+      "description": "A portrait of Cecilia Gallerani, a young noblewoman and mistress of Ludovico Sforza, Duke of Milan. The painting is notable for its inclusion of the ermine, a symbol of purity and the Duke's favor. The subject's elegant pose, direct gaze, and the soft modeling of her face demonstrate Leonardo's portraiture mastery. The painting exemplifies Renaissance ideals of beauty and refinement.",
+      "location": "Czartoryski Museum, Kraków, Poland",
+      "imageUrl": "/images/lady-with-ermine.jpg",
+      "period": "Milan Period",
+      "significance": "High",
+      "tags": ["Portrait", "Renaissance", "Noblewoman"]
+    },
+    {
+      "id": 6,
+      "title": "The Virgin and Child with Saint Anne",
+      "year": 1510,
+      "yearEnd": 1519,
+      "medium": "Oil on panel",
+      "dimensions": "168 cm × 130 cm (66 in × 51 in)",
+      "description": "Also known as Saint Anne with the Virgin and Child, this painting shows three generations—Saint Anne, the Virgin Mary, and the Christ Child—in a harmonious pyramidal composition. The work demonstrates Leonardo's mature style with refined sfumato and psychological subtlety. The landscape background merges imperceptibly with the figures, creating a unified spiritual and natural world.",
+      "location": "Louvre Museum, Paris, France",
+      "imageUrl": "/images/virgin-child-saint-anne.jpg",
+      "period": "Later Period",
+      "significance": "High",
+      "tags": ["Religious", "Family", "Oil Painting"]
+    },
+    {
+      "id": 7,
+      "title": "The Virgin and Child with Saint John the Baptist and Saint Sebastian",
+      "year": 1478,
+      "yearEnd": 1480,
+      "medium": "Oil on panel",
+      "dimensions": "100 cm × 100 cm (39 in × 39 in)",
+      "description": "An early work from Leonardo's Florentine period, this painting presents a Madonna and Child composition with two additional saints. The work shows influence from Verrocchio but already displays Leonardo's innovative approach to composition and spatial arrangement. The figures are arranged in a balanced yet dynamic composition.",
+      "location": "Hermitage Museum, Saint Petersburg, Russia",
+      "imageUrl": "/images/virgin-child-saints.jpg",
+      "period": "Early Period",
+      "significance": "Medium",
+      "tags": ["Religious", "Madonna", "Early Work"]
+    },
+    {
+      "id": 8,
+      "title": "Self-Portrait",
+      "year": 1512,
+      "yearEnd": 1515,
+      "medium": "Red chalk on paper",
+      "dimensions": "33.3 cm × 21.6 cm (13.1 in × 8.5 in)",
+      "description": "A powerful self-portrait drawn in red chalk, showing Leonardo as an aging man with long hair and beard. The work demonstrates his mastery of portraiture and self-reflection. With penetrating eyes and detailed facial features, it captures not just physical likeness but a sense of intellectual authority and contemplation. This drawing is among the most recognized self-portraits in art history.",
+      "location": "Biblioteca Reale, Turin, Italy",
+      "imageUrl": "/images/self-portrait.jpg",
+      "period": "Later Period",
+      "significance": "High",
+      "tags": ["Self-Portrait", "Drawing", "Red Chalk"]
+    },
+    {
+      "id": 9,
+      "title": "John the Baptist",
+      "year": 1513,
+      "yearEnd": 1516,
+      "medium": "Oil on walnut panel",
+      "dimensions": "69 cm × 57 cm (27 in × 22 in)",
+      "description": "A mysterious portrait of Saint John the Baptist shown as an androgynous youth with curled hair, pointing upward with his right hand. The figure emerges from darkness with a serene smile, embodying Leonardo's characteristic sfumato and psychological enigma. The work showcases the artist's later style with its soft modeling and atmospheric perspective.",
+      "location": "Louvre Museum, Paris, France",
+      "imageUrl": "/images/john-baptist.jpg",
+      "period": "Later Period",
+      "significance": "High",
+      "tags": ["Religious", "Portrait", "Oil Painting"]
+    },
+    {
+      "id": 10,
+      "title": "The Baptism of Christ",
+      "year": 1472,
+      "yearEnd": 1475,
+      "medium": "Oil and tempera on panel",
+      "dimensions": "177 cm × 151 cm (70 in × 59 in)",
+      "description": "This work, created during Leonardo's apprenticeship with Verrocchio in Florence, depicts the baptism of Jesus by John the Baptist. According to legend, Leonardo painted the angel on the left, and its superior quality prompted Verrocchio to abandon painting. The composition demonstrates Renaissance perspective and the graceful treatment of religious narrative. The work is a masterpiece of early Renaissance art.",
+      "location": "Uffizi Gallery, Florence, Italy",
+      "imageUrl": "/images/baptism-of-christ.jpg",
+      "period": "Early Period",
+      "significance": "High",
+      "tags": ["Religious", "Collaborative", "Tempera"]
+    },
+    {
+      "id": 11,
+      "title": "Leda and the Swan",
+      "year": 1506,
+      "yearEnd": 1510,
+      "medium": "Oil on panel (original lost, known through copies)",
+      "dimensions": "Approximately 120 cm × 77 cm (47 in × 30 in)",
+      "description": "Based on the classical myth, this painting depicts Leda with a swan. The original has been lost, but numerous copies and studies survive. The work demonstrates Leonardo's interest in narrative composition and the human form. The composition combines classical mythology with Renaissance sensibility, showing Leonardo's engagement with humanist themes.",
+      "location": "Location of original unknown (copies in various museums)",
+      "imageUrl": "/images/leda-swan.jpg",
+      "period": "Later Period",
+      "significance": "Medium",
+      "tags": ["Mythology", "Classical", "Lost Original"]
+    },
+    {
+      "id": 12,
+      "title": "Study of Drapery",
+      "year": 1490,
+      "yearEnd": 1495,
+      "medium": "Ink and wash on linen",
+      "dimensions": "25.2 cm × 16.3 cm (9.9 in × 6.4 in)",
+      "description": "A technical study demonstrating Leonardo's meticulous approach to rendering fabric and drapery. These studies were created to understand the behavior of cloth, light, and shadow before incorporating them into finished paintings. The careful attention to fold and form reveals Leonardo's scientific approach to artistic practice.",
+      "location": "British Museum, London, United Kingdom",
+      "imageUrl": "/images/study-drapery.jpg",
+      "period": "Milan Period",
+      "significance": "Low",
+      "tags": ["Study", "Technical", "Drawing"]
+    }
+  ],
+  "mediums": [
+    "Oil on panel",
+    "Oil on canvas",
+    "Tempera",
+    "Fresco",
+    "Red chalk",
+    "Ink",
+    "Pen and ink",
+    "Watercolor",
+    "Charcoal"
+  ],
+  "locations": [
+    "Louvre Museum, Paris, France",
+    "Uffizi Gallery, Florence, Italy",
+    "Hermitage Museum, Saint Petersburg, Russia",
+    "Biblioteca Reale, Turin, Italy",
+    "Gallerie dell'Accademia, Venice, Italy",
+    "British Museum, London, United Kingdom",
+    "Convent of Santa Maria delle Grazie, Milan, Italy",
+    "Czartoryski Museum, Kraków, Poland"
+  ],
+  "periods": [
+    "Early Period",
+    "Milan Period",
+    "Later Period"
+  ],
+  "significanceLevel": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ]
+}

@@ -1,0 +1,72 @@
+You are a senior full-stack React developer and UI/UX specialist.
+Your task is to create a complete, production-ready web application about Da Vinci's Art History from scratch.
+
+The application is purely **frontend-focused** (React + TypeScript). All data will be provided in a `data.json` file.
+
+---
+
+## Your Responsibilities
+
+### 1. Project Structure & Setup
+- Create a complete React + TypeScript project structure (without using create-react-app or Vite scaffolding; build it manually OR using a minimal setup)
+- Organize files into logical directories:
+  - `src/components/` - Reusable React components
+  - `src/pages/` - Page-level components
+  - `src/types/` - TypeScript interfaces & types
+  - `src/data/` - Data files (data.json provided)
+  - `src/styles/` - CSS/styling files
+  - `src/hooks/` - Custom React hooks (if needed)
+  - `src/utils/` - Utility functions
+- Provide `package.json` with all required dependencies
+- Provide `tsconfig.json` with proper TypeScript configuration
+- Provide `index.html` (entry point for the app)
+
+### 2. Read & Parse Input Data
+- Read the provided `data.json` file containing Da Vinci artwork information:
+  - Artwork title, year, dimensions, medium, description
+  - Artist bio and historical context
+  - Artwork locations and museums
+- Ensure all data is properly typed in TypeScript
+
+### 3. UI Design & Components
+Build the following components:
+  
+**Layout Components:**
+- `Header` - Navigation bar with app title and menu
+- `Footer` - Footer with copyright and links
+- `Layout` - Main layout wrapper
+
+**Feature Components:**
+- `ArtworkCard` - Displays individual artwork with image placeholder, title, year, medium
+- `ArtworkGallery` - Grid layout displaying multiple artworks with filtering/sorting
+- `ArtworkDetail` - Detailed page for single artwork (image, full description, metadata)
+- `ArtistBio` - Artist biography section with timeline or key achievements
+- `SearchBar` - Search functionality to filter artworks by title, year, medium
+- `FilterPanel` - Filter by year range, medium type, location/museum
+- `Timeline` - Visual timeline of Da Vinci's major works (optional but valued)
+- `NotFound` - 404 page for invalid routes
+
+**Pages:**
+- `HomePage` - Landing page with introduction, featured artworks, artist highlights
+- `GalleryPage` - Full gallery with filtering, sorting, search
+- `ArtworkDetailPage` - Individual artwork detail view
+- `BioPage` - Dedicated artist biography and timeline page
+- `ContactPage` (optional) - Contact/about section
+
+### 4. Core Features
+- **Navigation:** React Router for client-side navigation between pages
+- **Search:** Filter artworks by title (real-time search)
+- **Filtering:** Filter by year range, medium, location
+- **Sorting:** Sort by title, year (ascending/descending)
+- **Responsive Design:** Mobile, tablet, desktop layouts (use CSS media queries or a minimal CSS framework)
+- **TypeScript Strict Mode:** All components fully typed with no `any` types
+- **State Management:** Use React hooks (useState, useContext) for state (no external libraries required)
+- **Data Loading:** Properly parse and load `data.json`
+
+### 5. Styling & UX
+- **Visual Design:** Clean, professional theme appropriate for art history (use a cohesive color palette)
+- **Responsive Layout:** Flexbox/Grid for layouts; responsive design patterns
+- **Component Styling:** CSS modules OR inline styles (prefer CSS modules for maintainability)
+- **Visual Polish:** Hover effects, transitions, smooth interactions
+- **Accessibility:** Semantic HTML, alt text for images, proper heading hierarchy
+- **No External UI Libraries Required:** Build components from scratch (BUT using a minimal CSS framework like Tailwind is acceptable if you prefer)
