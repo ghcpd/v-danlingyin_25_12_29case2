@@ -1,0 +1,19 @@
+.detail {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--muted);
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
